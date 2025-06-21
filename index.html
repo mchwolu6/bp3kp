@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BP3KP JAWA IV | Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- LOGIN SECTION -->
+  <div class="center" id="login-box">
+    <h2>Login Internal</h2>
+    <div class="error" id="error-msg"></div>
+    <input type="text" id="username" placeholder="Username" />
+    <input type="password" id="password" placeholder="Password" />
+    <div id="captcha-question"></div>
+    <input type="text" id="captcha-answer" placeholder="Jawaban CAPTCHA" />
+    <button onclick="login()">Masuk</button>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div class="container hidden" id="main-content">
+    <h2>📁 Link Internal BP3KP JAWA IV</h2>
+    <a class="link-card" href="https://bit.ly/psrpesisir" target="_blank">🌊 PSR Pesisir</a>
+    <a class="link-card" href="https://docs.google.com/spreadsheets/d/xxx" target="_blank">📊 Database PKP</a>
+    <a class="link-card" href="https://bp3kp.sharepoint.com/sites/..." target="_blank">📅 Kegiatan PKP</a>
+    <a class="link-card" href="https://my.pkp.go.id" target="_blank">🔐 Portal MyPKP</a>
+    <a class="link-card" href="https://instagram.com/ditjenpkp" target="_blank">📷 Instagram Ditjen PKP</a>
+    <a class="link-card" href="https://instagram.com/bp3kp_jawa4" target="_blank">📷 Instagram BP3KP JAWA IV</a>
+    <p style="text-align:center;"><button onclick="logout()">Logout</button></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
